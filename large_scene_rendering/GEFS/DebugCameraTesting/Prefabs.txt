@@ -1,0 +1,39 @@
+modelDir = ./models/
+
+[FloorPart]
+scalexyz 0.5 0.5 0.5
+material [Clay]
+objModel = Floor_Modular.obj
+
+[DinoLow]
+scale .1
+objModel = Trex.obj #Triceratops
+
+[DinoHi]
+scale .1
+objModel = Trex-hipoly.obj #Triceratops
+
+[TorusLow]
+scale 0.2
+translate 0 7 5
+objModel = purple_donut.obj
+
+[TorusHi]
+scale 0.2
+translate 0 7 5
+objModel = purple_donut-hipoly.obj
+
+[DinoHatHighPoly]
+lodLevel highLod
+child [DinoHi]
+child [TorusHi]
+
+[DinoHatLowPoly]
+lodLevel lowLod
+child [DinoLow]
+child [TorusLow]
+
+[DinoHat]
+lowLodDist 10
+child [DinoHatHighPoly]
+child [DinoHatLowPoly]
