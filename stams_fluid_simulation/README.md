@@ -1,5 +1,5 @@
 # User Controls for Fluid Simulations:
-## All simulations
+## All Simulations
 - right click to add a source of fluid
 - 'p' pauses/unpauses the simulation
 
