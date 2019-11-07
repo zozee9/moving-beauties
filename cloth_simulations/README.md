@@ -1,4 +1,4 @@
-# Controls for all cloth simulations:
+# User Controls for Cloth Simulations:
 - 'p' to pause/unpause **note that all simulations start paused**
 - 'r' to restart simulation
 - 'e' to switch mode (to movement mode or cloth manipulation mode)
