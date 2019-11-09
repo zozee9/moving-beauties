@@ -6,4 +6,3 @@
 - Make sure Processing has access to it!
 - It will work better if you have dark clothes and are against a light background
 - Move around and have fun! :)
-- 
